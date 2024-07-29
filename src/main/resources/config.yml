@@ -1,0 +1,11 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+# |            BedWars-Voidless             | #
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
+#                                                                                   #
+#  Here you can list the arena groups that will be used for the Voidless gamemode.  #
+#   Make sure that the groups you list here actually exist and were created using   #
+#       the (BedWars1058 and BedWars2023) /bw arenaGroup create <group-name>.       #
+#  You can check with /bw arenaGroup list, and to make sure the arenas you want in  #
+# these groups are in the groups, use /bw arenaGroup set <arena-name> <group-name>. #
+arena-groups:
+  - "voidless_solo"
