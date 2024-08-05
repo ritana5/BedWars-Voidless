@@ -70,7 +70,7 @@ public class BedWars1058 {
         Bukkit.getConsoleSender().sendMessage("[BedWars1058] " + color("The &4B&ce&6d&eW&aa&9r&5s&d-&1V&2o&1i&2d&1l&2e&1s&2s addon was originally contributed to by Kiiya and Zuyte."));
         Utils.info("&4B&ce&6d&eW&aa&9r&5s&d-&1V&2o&1i&2d&1l&2e&1s&2s");
         Voidless.log.info("Plugin Version: " + JavaPlugin.getPlugin(Voidless.class).getDescription().getVersion());
-        if (!(JavaPlugin.getPlugin(Voidless.class).getDescription().getVersion().equals("1.0-SNAPSHOT"))) {
+        if (!(JavaPlugin.getPlugin(Voidless.class).getDescription().getVersion().equals("1.0.1"))) {
             Voidless.log.info("WARNING: You are using an outdated version of the plugin! Please update at or (WIP)");
         } else {
             Voidless.log.info(("You are running on the latest release!"));
