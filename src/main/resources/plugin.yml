@@ -1,5 +1,5 @@
 name: BedWars-Voidless
-description: An addon for BedWars that adds the Rush gamemode.
+description: An addon for BedWars that adds the Voidless gamemode.
 version: '${project.version}'
 author: ritana5
 contributors:

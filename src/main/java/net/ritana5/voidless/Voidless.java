@@ -21,7 +21,6 @@ public final class Voidless extends JavaPlugin {
     public static Voidless instance;
     public String placeSound;
     public List groups;
-    public List<String> modeStrings;
 
     public Voidless() {
     }
@@ -42,8 +41,8 @@ public final class Voidless extends JavaPlugin {
         } else if (Bukkit.getPluginManager().getPlugin("BedWars2023") != null && Bukkit.getPluginManager().getPlugin("BedWars1058") != null) {
             Bukkit.getLogger().severe("WARNING: BedWars1058 and BedWars2023 were both detected! To use this addon, choose one (preferably BedWars2023).");
             Bukkit.getPluginManager().disablePlugin(this);
-        } else if (Bukkit.getPluginManager().getPlugin("BedWars2023") != null && Bukkit.getPluginManager().getPlugin("BedWars1058") != null) {
-            Bukkit.getLogger().severe("WARNING: No support BedWars plugin detected! To use this addon, choose between BedWars1058 and BedWars2023 (preferably BedWars2023).");
+        } else if (Bukkit.getPluginManager().getPlugin("BedWars2023") == null && Bukkit.getPluginManager().getPlugin("BedWars1058") == null) {
+            Bukkit.getLogger().severe("WARNING: No supported BedWars plugin detected! To use this addon, choose between BedWars1058 and BedWars2023 (preferably BedWars2023).");
             Bukkit.getPluginManager().disablePlugin(this);
         }
     }
